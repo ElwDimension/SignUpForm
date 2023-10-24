@@ -11,25 +11,57 @@ body{
     display:flex;
     height:100%;
     width:100;
-
 }
 
 #left {
     display:flex;
-    font-family: Norse-Bold;
+    flex-direction: column;
     background-image: url("tree.jpg");
     background-size:cover;
     width:35%;
+    color:white;
+    justify-content: space-around;
+}
+
+#logo{
+    background-color: rgb(0,0,0,0.5);
+    font-family: Norse-Bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:20%;
+}
+
+#logo img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+     
 }
 
 #right{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    background-color: gainsboro;
 }
+
+#form{
+    background-color: white;
+}
+
 
 #footer{
     display:flex;
     flex-direction: column;
 }
 
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+  fieldset{
+    display:flex;
+    border:0;
+  }
