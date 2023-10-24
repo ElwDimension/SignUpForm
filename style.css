@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{height:100%;}
+
+body{
+    display:flex;
+    height:100%;
+    width:100;
+
+}
+
+#left {
+    display:flex;
+    font-family: Norse-Bold;
+    background-image: url("tree.jpg");
+    background-size:cover;
+    width:35%;
+}
+
+#right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer{
+    display:flex;
+    flex-direction: column;
+}
+
