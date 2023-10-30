@@ -16,11 +16,12 @@ body{
 #left {
     display:flex;
     flex-direction: column;
-    background-image: url("tree.jpg");
+    background-image: url("leaves.jpg");
     background-size:cover;
-    width:35%;
+    width:30%;
     color:white;
     justify-content: space-around;
+    
 }
 
 #logo{
@@ -33,9 +34,21 @@ body{
 }
 
 #logo img{
-    height:100%;
+    height:80%;
     object-fit: contain;
      
+}
+
+#logo span{
+    font-size:6em;
+}
+
+#credit{
+    font-size:initial;
+}
+
+#credit a{
+    color:white;
 }
 
 #right{
@@ -43,16 +56,43 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: gainsboro;
+    flex-grow:1;
 }
 
 #form{
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    flex-grow:.5;    
 }
 
+#form span{
+    margin: 1em 5%;
+    font-weight: bold;
+    font-size:1.25em;
+}
+
+fieldset{
+    margin: .5% 5%;
+}
+
+#header{
+    display:flex;
+    flex-direction: column;
+    flex-grow:1;
+    justify-content:center;
+    font-size:1.25em;
+    font-weight:bold;
+    margin: auto 40% auto 5%;
+    gap: 1em;
+}
 
 #footer{
     display:flex;
     flex-direction: column;
+    flex-grow:1;
+    margin: auto 5%;
+    margin: auto 40% auto 5%;
 }
 
 label,input{
@@ -63,4 +103,5 @@ label,input{
   fieldset{
     display:flex;
     border:0;
+    gap: 10%;    
   }
