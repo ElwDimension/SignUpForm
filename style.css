@@ -19,9 +19,10 @@ body{
     background-image: url("leaves.jpg");
     background-size:cover;
     width:30%;
+    height:100%;
     color:white;
-    justify-content: space-around;
-    
+    justify-content:space-between;
+    align-items:center;
 }
 
 #logo{
@@ -31,6 +32,8 @@ body{
     justify-content: center;
     align-items: center;
     height:20%;
+    width:100%;
+    margin-top:40%;
 }
 
 #logo img{
@@ -44,7 +47,7 @@ body{
 }
 
 #credit{
-    font-size:initial;
+    font-size:initial;   
 }
 
 #credit a{
@@ -64,19 +67,20 @@ body{
     display:flex;
     flex-direction: column;
     flex-grow:.5; 
+    gap:4%;
     box-shadow: 
         inset 0px 11px 8px -10px gray,
         inset 0px -11px 8px -10px gray; 
 }
 
 #form span{
-    margin: 1em 5%;
+    margin: 1em 8%;
     font-weight: bold;
     font-size:1.25em;
 }
 
 fieldset{
-    margin: .5% 5%;
+    margin: .5% 8%;
 }
 
 #header{
@@ -86,7 +90,7 @@ fieldset{
     justify-content:center;
     font-size:1.25em;
     font-weight:bold;
-    margin: auto 40% auto 5%;
+    margin: auto 40% auto 8%;
     gap: 1em;
 }
 
@@ -94,7 +98,7 @@ fieldset{
     display:flex;
     flex-direction: column;
     flex-grow:1;
-    margin: 2% 40% auto 5%;
+    margin: 2% 40% auto 8%;
     justify-content: flex-start;
 }
 
@@ -108,6 +112,10 @@ label,input{
     border:0;
     gap: 10%;    
   }
+
+input{
+    width:120%;
+}
 
 button{
     background-color: #596D48;
