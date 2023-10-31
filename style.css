@@ -63,7 +63,10 @@ body{
     background-color: white;
     display:flex;
     flex-direction: column;
-    flex-grow:.5;    
+    flex-grow:.5; 
+    box-shadow: 
+        inset 0px 11px 8px -10px gray,
+        inset 0px -11px 8px -10px gray; 
 }
 
 #form span{
@@ -91,8 +94,8 @@ fieldset{
     display:flex;
     flex-direction: column;
     flex-grow:1;
-    margin: auto 5%;
-    margin: auto 40% auto 5%;
+    margin: 2% 40% auto 5%;
+    justify-content: flex-start;
 }
 
 label,input{
@@ -105,3 +108,13 @@ label,input{
     border:0;
     gap: 10%;    
   }
+
+button{
+    background-color: #596D48;
+    color:white;
+    width:40%;
+    border-radius: 10px;
+    height:20%;
+    font-size:large;
+    font-weight:bold;
+}
