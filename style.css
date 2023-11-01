@@ -104,6 +104,16 @@ fieldset{
     justify-content: flex-start;
 }
 
+#footer span{
+    margin-top:3%;
+}
+
+#footer a{
+    color:#596D48;
+    font-weight:bold;
+    text-decoration: none;
+}
+
 label,input{
     display:flex;
     flex-direction:column;
@@ -117,6 +127,19 @@ label,input{
 
 input{
     width:120%;
+    height:50%;
+    
+    margin-top:2px;
+}
+
+input:focus{
+    
+    border-color:lightblue;
+    margin-top:2px; 
+}
+
+input:invalid{
+    border-color:crimson;
 }
 
 button{
